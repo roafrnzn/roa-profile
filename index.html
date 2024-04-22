@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-critters-container>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Card</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background: #000; 
+    }
+
+    .card{
+      font-family: "Candara", sans-serif;
+      width: 340px;
+      overflow: hidden;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-image img{
+      width: 100%;
+      height: 160px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      object-fit: cover;
+    }
+
+    .profile-image img{
+      z-index: 1;
+      width: 120px;
+      height: 120px;
+      position: relative;
+      margin-top: -75px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100px;
+      border: 10px solid #fff;
+      transition-duration: 0.4s;
+      transition-property: transform;
+    }
+
+    .profile-image img:hover{
+      transform: scale(1.1);
+    }
+
+    .card-content h3{
+      font-size: 25px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .card-content p{
+      font-size: 16px;
+      text-align: justify;
+      padding: 0 20px 5px 20px;
+    }
+
+    .icons{
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 30px;
+    }
+
+    .icons a{
+      text-decoration: none;
+      font-size: 20px;
+      color: #0ABDE3;
+      padding: 0 14px;
+      transition-duration: 0.4s;
+      transition-property: transform;
+    }
+
+    .icons a:hover{
+      color: #000;
+      transform: scale(1.5);
+    }
+  </style>
+<link rel="stylesheet" href="styles-5INURTSO.css"></head>
+<body>
+
+<div class="card">
+  <div class="card-image">
+    <img src="./assets/1.png" alt>
+  </div>
+  <div class="profile-image">
+    <img src="./assets/2.png" alt>
+  </div>
+  <div class="card-content">
+    <h3>Franzine Benneth Roa</h3>
+    <p>I'm a second-year BSCS student currently studying at Gordon College. My journey in the world of computer science has been nothing short of exhilarating, and I'm eager to explore more.</p>
+    <p>Beyond my academic pursuits, I'm an avid enthusiast of Korean pop culture. You can often find me immersing myself in the melodious tunes of K-pop or diving into the captivating worlds of K-dramas and anime. The vibrant energy and storytelling of these mediums never fail to inspire and entertain me.</p>
+  </div>
+  <div class="icons">
+    <a href="https://www.facebook.com/franzbenn" class="fab fa-facebook-f"></a>
+    <a href="https://github.com/roafrnzn/" class="fab fa-github"></a>
+    <a href="https://www.instagram.com/roafrnzn/" class="fab fa-instagram"></a>
+    <a href="https://twitter.com/roafrnzn" class="fab fa-twitter"></a>
+  </div>
+</div>
+
+<script src="polyfills-RT5I6R6G.js" type="module"></script><script src="main-K6LKSRMN.js" type="module"></script></body>
+</html>
